@@ -22,13 +22,18 @@ html {
 .intro h1 {
   font-size: 10rem;
   color: white;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 section {
-  max-width: 1300px;
-  width: 1300px;
-  margin: 70px auto;
+  max-width: 1340px;
+  width: 1340px;
+  margin: 75px auto 0;
+  font-size: 2.5rem;
+}
+.times-container img {
+  margin-top: 50px;
+  max-width: 100%;
 }
 section article {
   font-size: 3rem;
@@ -37,6 +42,7 @@ section article {
 
 .grey-top-border {
   border-top: 2px solid grey;
+  margin-top: 40px;
 }
 .times-container {
   display: flex;
@@ -44,4 +50,21 @@ section article {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+ol li {
+  margin-left: 30px;
+}
+
+.sections-subtitle {
+  margin: 50px 0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+#directions-section {
+  margin-bottom: 75px;
 }
